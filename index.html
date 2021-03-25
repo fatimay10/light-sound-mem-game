@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Do You Remember?!</h1>
+    
+    <p>
+     Welcome to <i>Do You Remember?!</i>! <br>(the 21st night of September)<br>
+      Can you remember the light and sound pattern? Repeat back the pattern by clicking the buttons.
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      End
+    </button>
+    
+    <div id="gameButtonArea">
+      <button onclick="guess(1)" id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" ></button>
+      <button onclick="guess(2)" id="button2" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button onclick="guess(3)" id="button3" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button onclick="guess(4)" id="button4" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button onclick="guess(5)" id="button5" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      </div>
+    
+   
+  </body>
+</html>
