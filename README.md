@@ -6,7 +6,7 @@ Submitted by: **Fatima Yuen**
 
 Time spent: **3** hours spent in total
 
-Link to project: https://light-sound-mem-game.glitch.me
+Link to project: https://lightsound-mem-game.glitch.me
 
 
 
